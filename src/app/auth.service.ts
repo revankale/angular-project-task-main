@@ -7,7 +7,7 @@ import { catchError, map, Observable, throwError } from 'rxjs';
 })
 export class AuthService {
 
-  private apiUrl = '';
+  private apiUrl = 'https://admin.the-maxeffort.com/api/v1/login?lang=en&store=KW/login';
 
   constructor(private http: HttpClient) { }
 
